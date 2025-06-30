@@ -1,0 +1,63 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compileCommands": [
+                "${workspaceFolder}/build/compile_commands.json"
+            ],
+            "compilerPath": "${config:idf.toolsPathWin}\\tools\\riscv32-esp-elf\\esp-14.2.0_20241119\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/**",
+                "E:/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/include",
+                "E:/espidf/v5.4/esp-idf/components**",
+                "${workspaceFolder}/components/mydht11/include",
+                "${workspaceFolder}/components/TMF/include",
+                "${workspaceFolder}/components/mymqtt/include",
+                "${workspaceFolder}/components/myWifi/include",
+                "E:/espidf/v5.4/esp-idf/components/soc/esp32c6/include",
+                "E:/espidf/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/include",
+                "E:/espidf/v5.4/esp-idf/components/lwip/include",
+                "E:/espidf/v5.4/esp-idf/components/lwip/lwip/src/include",
+                "E:/espidf/v5.4/esp-idf/components/log/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_system/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_adc/deprecated/include",
+                "E:/espidf/v5.4/esp-idf/components/driver/deprecated",
+                "E:/espidf/v5.4/esp-idf/components/esp_common/include",
+                "E:/espidf/v5.4/esp-idf/components/hal/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_driver_gpio/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_rom/include",
+                "E:/espidf/v5.4/esp-idf/components/freertos/config/include/freertos",
+                "E:/espidf/v5.4/esp-idf/components/esp_hw_support/include",
+                "E:/espidf/v5.4/esp-idf/components/freertos/config/riscv/include",
+                "E:/espidf/v5.4/esp-idf/components/riscv/include",
+                "E:/espidf/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel-SMP/portable/riscv/include/freertos",
+                "E:/espidf/v5.4/esp-idf/components/soc/esp32c6/register",
+                "E:/espidf/v5.4/esp-idf/components/newlib/platform_include",
+                "E:/espidf/v5.4/esp-idf/components/heap/include",
+                "E:/espidf/v5.4/esp-idf/components/mqtt/esp-mqtt/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_event/include",
+                "E:/espidf/v5.4/esp-idf/components/tcp_transport/include",
+                "E:/espidf/v5.4/esp-idf/components/nvs_flash/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_partition/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_wifi/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_netif/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_http_client/include",
+                "E:/espidf/v5.4/esp-idf/components/lwip/port/esp32xx/include",
+                "E:/espidf/v5.4/esp-idf/components/lwip/lwip/contrib/examples/example_app",
+                "${workspaceFolder}/components/mymqtt/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_gdbstub/test_gdbstub_host/rv_decode/include",
+                "E:/espidf/v5.4/esp-idf/components/json/cJSON",
+                "${workspaceFolder}/components/myWifi/include",
+                "E:/espidf/v5.4/esp-idf/components/json/cJSON",
+                "E:/espidf/v5.4/esp-idf/components/esp_adc/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_driver_ledc/include",
+                "E:/espidf/v5.4/esp-idf/components/esp_driver_i2c/include",
+                "E:/espidf/v5.4/esp-idf/components/lwip/lwip/contrib/ports/freertos/include"
+            ]
+        }
+    ],
+    "version": 4
+}
